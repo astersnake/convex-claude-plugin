@@ -1,21 +1,10 @@
 ---
 name: convex-ai
-description: Convex AI Integration - OpenAI, actions, streaming, and AI patterns with database integration
-globs:
-  - "convex/**/*.ts"
-  - "**/*ai*.ts"
-  - "**/*openai*.ts"
-triggers:
-  - openai
-  - gpt
-  - ai
-  - llm
-  - chat completion
-  - generate
-  - "use node"
-  - action
-  - OPENAI_API_KEY
-  - ctx.runAction
+description: Convex AI Integration - OpenAI, actions, streaming, and AI patterns with database integration. Use when working with openai, gpt, ai, llm, chat completions, generate, "use node", actions, OPENAI_API_KEY, or ctx.runAction in Convex applications.
+license: MIT
+metadata:
+  author: convex-community
+  version: "1.0"
 ---
 
 # Convex AI Integration Guide

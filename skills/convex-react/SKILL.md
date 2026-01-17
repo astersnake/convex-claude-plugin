@@ -1,22 +1,10 @@
 ---
 name: convex-react
-description: Convex React client - hooks, real-time updates, optimistic updates, pagination, and UI patterns
-globs:
-  - "**/*.tsx"
-  - "**/*.ts"
-  - "src/**/*"
-triggers:
-  - useQuery
-  - useMutation
-  - useAction
-  - usePaginatedQuery
-  - convex/react
-  - ConvexProvider
-  - ConvexReactClient
-  - optimistic
-  - skip
-  - real-time
-  - loading state
+description: Convex React client - hooks, real-time updates, optimistic updates, pagination, and UI patterns. Use when working with useQuery, useMutation, useAction, usePaginatedQuery, convex/react, ConvexProvider, ConvexReactClient, optimistic updates, skip, real-time, or loading states in React.
+license: MIT
+metadata:
+  author: convex-community
+  version: "1.0"
 ---
 
 # Convex React Client Guide

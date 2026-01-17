@@ -1,25 +1,10 @@
 ---
 name: convex-components
-description: Convex Components - Presence, ProseMirror/BlockNote collaborative editing, and Resend email integration
-globs:
-  - "convex/**/*.ts"
-  - "convex/convex.config.ts"
-  - "**/*.tsx"
-triggers:
-  - presence
-  - prosemirror
-  - blocknote
-  - resend
-  - email
-  - collaborative
-  - real-time editing
-  - facepile
-  - convex.config.ts
-  - defineApp
-  - components
-  - @convex-dev/presence
-  - @convex-dev/prosemirror-sync
-  - @convex-dev/resend
+description: Convex Components - Presence, ProseMirror/BlockNote collaborative editing, and Resend email integration. Use when working with presence, prosemirror, blocknote, resend, email, collaborative editing, facepile, convex.config.ts, defineApp, or @convex-dev components.
+license: MIT
+metadata:
+  author: convex-community
+  version: "1.0"
 ---
 
 # Convex Components Overview

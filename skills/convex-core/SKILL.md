@@ -1,20 +1,10 @@
 ---
 name: convex-core
-description: Core Convex development guidelines - functions, validators, schema, queries, mutations, and database patterns
-globs:
-  - "convex/**/*.ts"
-  - "convex/schema.ts"
-triggers:
-  - convex
-  - query
-  - mutation
-  - schema
-  - validator
-  - index
-  - database
-  - ctx.db
-  - defineTable
-  - defineSchema
+description: Core Convex development guidelines - functions, validators, schema, queries, mutations, and database patterns. Use when working with convex/**/*.ts files or when discussing Convex queries, mutations, schemas, validators, indexes, ctx.db, defineTable, defineSchema, or database patterns.
+license: MIT
+metadata:
+  author: convex-community
+  version: "1.0"
 ---
 
 # Convex Core Development Guide

@@ -1,24 +1,10 @@
 ---
 name: convex-auth
-description: Convex Auth - authentication, user management, protected functions, and session handling
-globs:
-  - "convex/**/*.ts"
-  - "convex/auth.ts"
-  - "**/*auth*.ts"
-  - "**/*auth*.tsx"
-triggers:
-  - getAuthUserId
-  - authentication
-  - authenticated
-  - login
-  - logout
-  - protected
-  - authTables
-  - @convex-dev/auth
-  - loggedInUser
-  - currentUser
-  - session
-  - user permission
+description: Convex Auth - authentication, user management, protected functions, and session handling. Use when working with getAuthUserId, login, logout, authTables, @convex-dev/auth, loggedInUser, currentUser, sessions, or user permissions in Convex applications.
+license: MIT
+metadata:
+  author: convex-community
+  version: "1.0"
 ---
 
 # Convex Auth Server Guidelines
